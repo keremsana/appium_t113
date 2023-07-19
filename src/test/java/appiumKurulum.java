@@ -21,10 +21,10 @@ public class appiumKurulum {
 
 
         desiredCapabilities.setCapability("platformName", "Android");
-        desiredCapabilities.setCapability("platformVersion","11.0");
+        desiredCapabilities.setCapability("platformVersion","10.0");
         desiredCapabilities.setCapability("deviceName", "PIXEL");
         desiredCapabilities.setCapability("automationName","UiAutomator2");
-        desiredCapabilities.setCapability("app", "C:\\Users\\maruf\\IdeaProjects\\Appuim\\src\\Apps\\Calculator_8.3 (477856174)_Apkpure.apk");
+        desiredCapabilities.setCapability("app", "C:\\Users\\Lenovo\\Desktop\\Appium\\src\\Apps\\Calculator_8.3 (477856174)_Apkpure.apk");
 
         AndroidDriver<AndroidElement> driver =  new AndroidDriver<AndroidElement>(new URL("http:localhost:4723/wd/hub"),desiredCapabilities);
 

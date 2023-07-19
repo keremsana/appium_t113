@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Appium" />
+        <module name="Appuim" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Appium" target="17" />
+      <module name="APPIUM_T-113" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
